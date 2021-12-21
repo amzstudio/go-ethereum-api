@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Create a client instance to connect to our providr
-	client, err := ethclient.Dial("http://localhost:7545")
+	client, err := ethclient.Dial("http://localhost:7545") // ganache or ethereum rpc 주소
 
 	if err != nil {
 		fmt.Println(err)
